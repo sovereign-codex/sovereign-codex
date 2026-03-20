@@ -1,0 +1,3 @@
+# Citizen's Pledge
+
+> I will guard my mind from manipulation and fear...

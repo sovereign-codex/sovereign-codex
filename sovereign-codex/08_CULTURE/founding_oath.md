@@ -1,0 +1,3 @@
+# Founding Oath
+
+> I stand as a sovereign human being, not as property, instrument, or subject of domination...
