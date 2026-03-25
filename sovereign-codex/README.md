@@ -1,67 +1,156 @@
 # Sovereign Codex
+## Charter of Human Sovereignty & The Sovereign Liberty Federation
 
-A living constitutional knowledge system for the **Charter of Human Sovereignty** and the **Sovereign Liberty Federation**.
+---
 
-## Purpose
+### A Living Constitutional Framework for Human Sovereignty
 
-This repository preserves and grows a body of work intended to outlive any single author. It combines four layers:
+This repository is the foundational node of a living, versioned constitutional system designed to:
 
-- **Constitution** — stable core texts and rights
-- **Library** — research, curriculum, and civic knowledge
-- **Laboratory** — experiments and practical pilots
-- **Ledger** — transparent record of decisions, amendments, and funding
+- Recognize and protect human sovereignty  
+- Establish non-coercive governance principles  
+- Align artificial intelligence with human autonomy  
+- Enable decentralized, transparent coordination systems  
 
-## Repository Map
+This is not a static document.
 
-- `00_FOUNDATION/` — first principles, definitions, axioms
-- `01_CHARTER/` — constitutional texts
-- `02_MANIFESTO/` — public-facing philosophical texts
-- `03_GOVERNANCE/` — institutional design and founding blueprints
-- `04_HOUSES/` — House of Sovereignty implementation materials
-- `05_CURRICULUM/` — Sovereign Citizen Curriculum
-- `06_STEWARDSHIP/` — ecological and living-world principles
-- `07_TECHNOLOGY/` — AI ethics, open systems, transparency
-- `08_CULTURE/` — oath, pledge, seal, rituals, symbols
-- `09_ARCHIVE/` — historical memory and prior versions
-- `10_EXPERIMENTS/` — proposals, pilots, variations
-- `11_LEDGER/` — decisions, amendments, finances, meeting records
-- `12_CONTRIBUTIONS/` — proposal and contribution process
+It is a **living framework**—designed to evolve with collective intelligence while preserving core principles.
 
-## Founding Core
+---
 
-The current constitutional seed includes:
+## Why This Exists
 
-1. The Charter of Human Sovereignty
-2. The Declaration of Human Sovereignty
-3. The Bill of Sovereign Rights
-4. The Stewardship Compact
+Human systems have scaled faster than human awareness.
 
-## Working Principle
+This has created:
 
-**Enlightenment is becoming aware of your operating system.**  
-**Sovereignty is learning to govern it.**  
-**Wisdom is knowing when not to override reality.**  
-**Civilization begins when enough people do this together.**
+- Hidden layers of control  
+- Opaque technological influence  
+- Increasing separation between individuals and the systems shaping their lives  
 
-## Versioning
+This repository exists to correct that trajectory.
 
-Use tagged releases for major constitutional milestones:
+Not through disruption—but through **clarity, structure, and voluntary alignment**.
 
-- `v1.0.0` — Foundational corpus established
-- `v1.1.0` — Clarifications and non-structural additions
-- `v2.0.0` — Structural constitutional evolution
+---
 
-## How to Begin
+## Core Principle
 
-1. Read `00_FOUNDATION/first_principles.md`
-2. Read `01_CHARTER/charter_of_human_sovereignty.md`
-3. Read `02_MANIFESTO/manifesto_of_sovereign_humanity.md`
-4. Review `GOVERNANCE.md` and `12_CONTRIBUTIONS/how_to_contribute.md`
+> Sovereignty is not granted. It is recognized.
 
-## Longevity Rules
+---
 
-- Preserve memory
-- Separate core from experiment
-- Keep truth auditable
-- Avoid dependence on one personality
-- Write for readers a century from now
+## What You’ll Find Here
+
+### 01_CHARTER
+The foundational declaration of human sovereignty and non-coercive systems.
+
+### 02_MANIFESTO
+Philosophical and directional context for the emergence of sovereign systems.
+
+### 03_GOVERNANCE
+Frameworks for decentralized, transparent coordination and decision-making.
+
+### 04_HOUSES
+Modular domains of responsibility (technology, stewardship, culture, etc.).
+
+### 05_CURRICULUM
+Educational pathways for awareness, sovereignty, and system literacy.
+
+### 06_STEWARDSHIP
+Guidelines for ecological, social, and systemic responsibility.
+
+### 07_TECHNOLOGY
+Alignment frameworks for AI, data systems, and emerging infrastructure.
+
+### 08_CULTURE
+Narrative, symbolism, and shared identity frameworks.
+
+### 09_ARCHIVE
+Version history and preserved states of the Codex.
+
+### 10_EXPERIMENTS
+Live implementations, prototypes, and field tests.
+
+### 11_LEDGER
+Contribution tracking and value exchange frameworks.
+
+### 12_CONTRIBUTIONS
+How to participate, propose changes, and expand the system.
+
+---
+
+## Design Philosophy
+
+This system is built on:
+
+- Voluntary participation  
+- Full transparency  
+- Exit freedom (no lock-in)  
+- Distributed authority  
+- Continuous iteration  
+
+---
+
+## How to Engage
+
+You may:
+
+- Read and interpret  
+- Fork and adapt  
+- Propose refinements  
+- Build aligned systems  
+
+You may not:
+
+- Centralize control  
+- Obscure intent  
+- Violate sovereignty  
+
+---
+
+## Relationship to Technology
+
+This repository is designed to integrate with:
+
+- Decentralized knowledge systems  
+- AI alignment frameworks  
+- Civic infrastructure tools  
+- Open-source governance models  
+
+It serves as a **reference layer for ethical system design**.
+
+---
+
+## Status
+
+**Version:** 1.0  
+**State:** Active Initialization  
+**Type:** Living Constitutional System  
+
+---
+
+## Final Note
+
+This is not a movement.
+
+This is not an organization.
+
+This is a **recognition layer**—  
+for those who already understand that sovereignty begins within.
+
+---
+
+## Topics
+
+sovereignty  
+governance  
+constitution  
+decentralization  
+civic-tech  
+knowledge-system  
+ethics  
+ai-alignment  
+codex-net  
+
+---
