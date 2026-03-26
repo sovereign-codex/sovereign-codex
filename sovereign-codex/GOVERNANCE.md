@@ -1,39 +1,183 @@
-# Governance
+# Governance Framework
+## Sovereign Codex – Decentralized Coordination Model
 
-This repository is governed as a living constitutional knowledge system.
+---
 
-## Layers
+## Purpose
 
-### 1. Constitutional Core
-Files in `00_FOUNDATION/` and `01_CHARTER/` are slow-moving and require the highest review threshold.
+This document defines how the Sovereign Codex evolves, adapts, and maintains coherence without central authority.
 
-### 2. Civic and Institutional Layer
-Files in `02_MANIFESTO/`, `03_GOVERNANCE/`, `04_HOUSES/`, and `05_CURRICULUM/` may evolve through structured review.
+It exists to ensure:
 
-### 3. Experimental Layer
-Files in `10_EXPERIMENTS/` are explicitly provisional and may be revised rapidly.
+- Contributions remain aligned with core principles  
+- No individual or group can capture control  
+- Evolution occurs through clarity—not conflict  
 
-### 4. Ledger Layer
-Files in `11_LEDGER/` are append-only historical records except for correction notes.
+---
 
-## Amendment Thresholds
+## Core Governance Principle
 
-- **Foundation / Charter**: supermajority plus recorded rationale
-- **Operational documents**: majority plus review window
-- **Experiments**: maintainers may merge with documented intent
-- **Ledger**: never erase history; correct through addenda
+> No authority overrides sovereignty.
 
-## Design Rules
+Governance is not control.
 
-- Separate principle from implementation
-- Keep old versions in archive
-- No secret constitutional changes
-- Any structural proposal must include:
-  - purpose
-  - expected effects
-  - risks
-  - compatibility with first principles
+It is **coordination without coercion**.
 
-## Founding Rule
+---
 
-No contributor owns this body of work. Stewardship is custodial, not possessive.
+## Contribution Model
+
+Anyone may contribute to the Codex.
+
+Valid contributions include:
+
+- Refinements to existing documents  
+- New proposals (articles, frameworks, systems)  
+- Clarifications of language or intent  
+- Experimental implementations  
+
+All contributions must:
+
+- Preserve individual sovereignty  
+- Maintain transparency  
+- Avoid introducing coercive mechanisms  
+
+---
+
+## Proposal Process
+
+All changes follow a simple, visible process:
+
+### 1. Proposal
+A contributor submits a clear change or addition.
+
+### 2. Context
+The proposal must explain:
+- What is being changed  
+- Why it matters  
+- How it aligns with the Charter  
+
+### 3. Open Review
+The proposal is visible for public review and discussion.
+
+### 4. Signal-Based Acceptance
+Adoption is determined by:
+
+- Clarity  
+- Coherence  
+- Alignment with core principles  
+
+Not by majority vote alone.
+
+---
+
+## No Majority Tyranny
+
+This system does not operate on simple majority rule.
+
+Why:
+
+- Majorities can be misinformed  
+- Truth is not determined by volume  
+
+Instead, decisions emerge through:
+
+- Reasoned discourse  
+- Pattern recognition  
+- Alignment with foundational principles  
+
+---
+
+## Forking as Freedom
+
+If alignment cannot be reached:
+
+- Any participant may fork the repository  
+- Alternative visions may evolve independently  
+
+Forking is not failure.
+
+It is **parallel exploration**.
+
+---
+
+## Stewardship Roles (Optional, Non-Hierarchical)
+
+Participants may take on stewardship roles:
+
+- Editors (clarity and structure)  
+- Reviewers (alignment and coherence)  
+- Builders (implementation and systems)  
+
+These roles:
+
+- Carry responsibility, not authority  
+- Do not grant control over others  
+- Are revocable by loss of trust or alignment  
+
+---
+
+## Transparency Requirement
+
+All governance activity must be:
+
+- Publicly visible  
+- Documented  
+- Traceable through version history  
+
+No hidden decision-making is permitted.
+
+---
+
+## Conflict Resolution
+
+When disagreements arise:
+
+1. Return to the Charter  
+2. Clarify the root principle in question  
+3. Seek alignment—not victory  
+
+If unresolved:
+
+- Fork the path  
+- Allow reality to test outcomes  
+
+---
+
+## Evolution of Governance
+
+This governance model is itself:
+
+- Open to refinement  
+- Subject to improvement  
+- Bound by the same principles it defines  
+
+No governance change may:
+
+- Reduce individual sovereignty  
+- Introduce hidden control  
+- Create irreversible power structures  
+
+---
+
+## Final Principle
+
+> Power must remain distributed, visible, and voluntary.
+
+If governance ever becomes:
+
+- Opaque  
+- Coercive  
+- Centralized  
+
+It is no longer aligned with this Codex.
+
+---
+
+## Status
+
+**Version:** 1.0  
+**Model:** Decentralized / Non-Coercive  
+**Authority:** Distributed  
+
+---
