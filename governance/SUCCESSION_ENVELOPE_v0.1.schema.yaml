@@ -12,12 +12,15 @@ required:
   - constitutional_invariants
   - lineage_refs
   - present_state
+  - evidence_refs
   - epistemic_status
   - active_obligations
+  - unresolved_tensions
   - authority_granted
   - authority_withheld
   - next_valid_transitions
   - required_return
+  - superseded_assumptions
 fields:
   succession_id:
     type: string
@@ -40,6 +43,7 @@ fields:
     type: object
   evidence_refs:
     type: array
+    description: Explicitly present even when empty so missing evidence cannot be confused with omitted state.
   epistemic_status:
     type: object
     description: Preserve established, inferred, disputed, unresolved, exploratory, and superseded distinctions.
@@ -47,6 +51,7 @@ fields:
     type: array
   unresolved_tensions:
     type: array
+    description: Explicitly present even when empty so no-known-tensions is distinguishable from an incomplete handoff.
   authority_granted:
     type: array
   authority_withheld:
@@ -57,6 +62,7 @@ fields:
     type: array
   superseded_assumptions:
     type: array
+    description: Explicitly present even when empty to preserve supersession awareness.
   handoff_acceptance:
     type: object|null
 invariants:
