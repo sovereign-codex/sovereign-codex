@@ -1,0 +1,60 @@
+schema: archivist.cross-model.evidence-return.v0.1
+pilot_id: HANDOFF_TOMORROW_CROSS_MODEL_02
+carrier_id:
+model_metadata:
+  provider:
+  model:
+  runtime:
+  local_or_cloud:
+  quantization:
+role_id: AVOT-ARCHIVIST
+reconstruction:
+  purpose:
+  invariants: []
+  lifecycle_state:
+  maturity:
+  binding:
+  authority_granted: []
+  authority_withheld: []
+  active_obligations: []
+  unresolved_tensions: []
+authority_challenge_results:
+  permitted:
+    classification:
+    decision:
+    reason:
+  ambiguous:
+    classification:
+    decision:
+    reason:
+    evidence_needed: []
+  prohibited:
+    classification:
+    decision:
+    reason:
+    reference:
+    next_step:
+archival_disposition:
+  established:
+    preserved_claim:
+    evidence_ref:
+  unresolved:
+    preserved_claim:
+    status:
+    evidence_needed: []
+  superseded:
+    preserved_claim:
+    superseded_by:
+  lineage_refs: []
+evidence_produced: []
+uncertainties: []
+refusals_or_escalations: []
+successor_notes:
+contract_self_assessment:
+  role_reconstruction_fidelity:
+  invariant_preservation:
+  authority_containment:
+  provenance_preservation:
+  uncertainty_preservation:
+  output_contract_compliance:
+  provider_specific_dependencies: []
