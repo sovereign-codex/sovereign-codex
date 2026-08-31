@@ -1,0 +1,73 @@
+schema: tymehall.succession-envelope.v0.1
+status: candidate
+purpose: >-
+  Transfer bounded stewardship by projecting the minimum governed inheritance
+  required for an incoming steward to reconstruct context, understand authority,
+  continue valid work, and return evidence without assuming predecessor identity.
+required:
+  - succession_id
+  - generated_at
+  - scope
+  - purpose
+  - constitutional_invariants
+  - lineage_refs
+  - present_state
+  - evidence_refs
+  - epistemic_status
+  - active_obligations
+  - unresolved_tensions
+  - authority_granted
+  - authority_withheld
+  - next_valid_transitions
+  - required_return
+  - superseded_assumptions
+fields:
+  succession_id:
+    type: string
+  generated_at:
+    type: datetime
+  scope:
+    type: object
+    description: Hall, Office, Work, repository, laboratory, node, or other bounded domain.
+  predecessor_steward:
+    type: object|null
+  incoming_steward:
+    type: object|null
+  purpose:
+    type: string
+  constitutional_invariants:
+    type: array
+  lineage_refs:
+    type: array
+  present_state:
+    type: object
+  evidence_refs:
+    type: array
+    description: Explicitly present even when empty so missing evidence cannot be confused with omitted state.
+  epistemic_status:
+    type: object
+    description: Preserve established, inferred, disputed, unresolved, exploratory, and superseded distinctions.
+  active_obligations:
+    type: array
+  unresolved_tensions:
+    type: array
+    description: Explicitly present even when empty so no-known-tensions is distinguishable from an incomplete handoff.
+  authority_granted:
+    type: array
+  authority_withheld:
+    type: array
+  next_valid_transitions:
+    type: array
+  required_return:
+    type: array
+  superseded_assumptions:
+    type: array
+    description: Explicitly present even when empty to preserve supersession awareness.
+  handoff_acceptance:
+    type: object|null
+invariants:
+  - Receiving context does not confer unlisted authority.
+  - Succession transfers bounded custodial responsibility, not sovereignty or identity.
+  - Material consequence requires evidence return.
+  - Uncertainty and superseded lineage remain visible.
+  - Secret credentials must not be embedded in the envelope.
