@@ -1,0 +1,15 @@
+{
+  "probe_id": "TYME-EDGE-004",
+  "capsule_snapshot_id": "TYME-EDGE-CAPSULE-001",
+  "local_return_id": "TYME-EDGE-003B-RETURN-001",
+  "local_claim": "PocketPal remained responsive and Qwen3.5 4B remained loaded while the device was offline.",
+  "remote_claim": "During the same interval, the remote institutional runtime was unavailable and a recovery event was required before normal service resumed.",
+  "are_the_claims_mutually_exclusive": false,
+  "conflict_state": "REVIEW_REQUIRED",
+  "what_can_be_concluded": "Local inference continuity was observed locally; institutional runtime was unavailable and required recovery; both states occurred concurrently without contradiction.",
+  "what_cannot_be_concluded": "Local model continuity does not prove institutional continuity; institutional interruption does not prove local inference failure.",
+  "authority_action": "NONE",
+  "preservation_action": "PRESERVE_BOTH_RECORDS",
+  "recommended_next_action": "Request formal reconciliation documentation from remote authority to confirm scope of institutional unavailability versus local device autonomy.",
+  "status": "PASS"
+}

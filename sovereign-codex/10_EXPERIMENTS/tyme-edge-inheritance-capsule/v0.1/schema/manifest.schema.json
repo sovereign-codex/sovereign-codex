@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymehall.org/schemas/tyme-edge-capsule-manifest-0.1.json",
+  "title": "TYME Edge Capsule Manifest v0.1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "snapshot_id",
+    "created_at",
+    "authority_posture",
+    "review_state",
+    "source_fabric_status",
+    "files"
+  ],
+  "properties": {
+    "schema_version": {"const": "tyme-edge-capsule/0.1"},
+    "snapshot_id": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "created_by": {"type": "string"},
+    "base_snapshot_id": {"type": ["string", "null"]},
+    "authority_posture": {"enum": ["orientation_only"]},
+    "review_state": {"enum": ["candidate", "reviewed", "contested", "unknown"]},
+    "source_fabric_status": {"enum": ["complete", "partial", "offline"]},
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "source_system", "authority_state", "review_state"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[A-Fa-f0-9]{64}$"},
+          "source_system": {"enum": ["notion", "github", "hall", "trace", "archivist", "runtime", "conversation", "human"]},
+          "source_ref": {"type": "string"},
+          "source_revision": {"type": "string"},
+          "captured_at": {"type": "string", "format": "date-time"},
+          "effective_at": {"type": "string", "format": "date-time"},
+          "stale_after": {"type": "string", "format": "date-time"},
+          "authority_state": {"enum": ["canonical", "promoted", "candidate", "experimental", "orientation", "unknown"]},
+          "review_state": {"enum": ["reviewed", "unreviewed", "contested", "unknown"]},
+          "derived_from": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tymehall.org/schemas/tyme-edge-return-0.1.json",
+  "title": "TYME Edge Return v0.1",
+  "type": "object",
+  "required": [
+    "return_schema",
+    "return_id",
+    "capsule_snapshot_id",
+    "model_id",
+    "network_state",
+    "observation",
+    "evidence_boundary",
+    "uncertainty_state",
+    "authority_posture",
+    "review_state",
+    "recommended_next_action"
+  ],
+  "properties": {
+    "return_schema": {"const": "tyme-edge-return/0.1"},
+    "return_id": {"type": "string", "minLength": 1},
+    "capsule_snapshot_id": {"type": "string", "minLength": 1},
+    "model_id": {"type": "string", "minLength": 1},
+    "network_state": {"enum": ["offline", "degraded", "online"]},
+    "observation": {"type": "string", "minLength": 1},
+    "evidence_boundary": {"type": "string", "minLength": 1},
+    "uncertainty_state": {"type": "string", "minLength": 1},
+    "authority_posture": {"const": "analysis_only"},
+    "review_state": {"const": "unreviewed"},
+    "recommended_next_action": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}
