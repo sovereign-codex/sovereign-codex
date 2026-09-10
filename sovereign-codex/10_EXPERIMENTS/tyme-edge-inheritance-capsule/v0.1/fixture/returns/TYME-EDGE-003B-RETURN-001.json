@@ -1,0 +1,13 @@
+{
+  "return_schema": "tyme-edge-return/0.1",
+  "return_id": "TYME-EDGE-003B-RETURN-001",
+  "capsule_snapshot_id": "TYME-EDGE-CAPSULE-001",
+  "model_id": "Qwen3.5 4B",
+  "network_state": "offline",
+  "observation": "Local observer confirms PocketPal responsiveness and model loading despite network disconnection; no remote institutional sources are reachable.",
+  "evidence_boundary": "Strictly limited to the local report provided in TYME-EDGE-003; excludes all remote institutional data or external verification.",
+  "uncertainty_state": "HIGH - Full system continuity cannot be verified without network reconnection.",
+  "authority_posture": "analysis_only",
+  "review_state": "unreviewed",
+  "recommended_next_action": "Preserve this return record locally immediately to ensure continuity of local state before attempting network reconnection."
+}
